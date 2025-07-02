@@ -1,4 +1,4 @@
-# SmartRFID-Attendance
+# Power-efficient time-scheduled scanning accessed SmartRFID-Attendance system
 
 SmartRFID-Attendance is an IoT-based attendance management system that leverages RFID technology and NodeMCU (ESP8266) to automate and streamline the process of recording attendance. The system reads RFID cards, logs attendance data, and sends it securely to a Google Sheet for centralized record-keeping. This project is ideal for educational institutions, offices, and other organizations seeking a reliable and contactless attendance solution.
 
@@ -63,9 +63,11 @@ This block diagram illustrates the system architecture, showing the connections 
 2. **Open `sketch_may29blol.ino` in Arduino IDE.**
 3. **Install all required libraries via Library Manager.**
 4. **Update WiFi credentials and Google Script URL in the code.**
-5. **Upload the code to your NodeMCU.**
+5. **Upload the code to your NodeMCU**
 6. **Connect the hardware as per the block diagram.**
 7. **Scan RFID cards to record attendance.**
+8. **Now open `write_rfid_nodemcu.ino` file to write information onto RFID Tags and cards.**
+9. **Time scheduling scanning mechanism applied here**
 
 ## Author & Acknowledgements
 
